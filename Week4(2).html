@@ -1,0 +1,74 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+    <title>Two Forms Using Iframes</title> 
+</head> 
+<body> 
+    <p>UID25222 - Nidhi </p> 
+    <h2 align="center">Two Forms Displayed Using Iframes</h2> 
+    <br><br> 
+    <table align="center" cellpadding="20"> 
+        <tr> 
+        <!-- Login Form -->     
+            <td> 
+                <iframe width="400" height="250" 
+                srcdoc=' 
+                <h3 align="center">User Login</h3> 
+                <form> 
+                <table align="center" border="1" cellpadding="8"> 
+                <tr> 
+                <td>Username:</td> 
+                <td><input type="text"></td> 
+                </tr> 
+                <tr> 
+                <td>Password:</td> 
+                <td><input type="password"></td> 
+                </tr> 
+                <tr> 
+                <td colspan="2" align="center"> 
+                <input type="submit" value="Login"> 
+                </td> 
+                </tr> 
+                </table> 
+                </form> 
+                '> 
+                </iframe> 
+            </td> 
+        <!-- Registration Form --> 
+            <td> 
+                <iframe width="400" height="300" 
+                srcdoc=' 
+                <h3 align="center">User Registration</h3> 
+                <form> 
+                <table align="center" border="1" cellpadding="8"> 
+                <tr> 
+                <td>Full Name:</td> 
+                <td><input type="text"></td> 
+                </tr> 
+                <tr> 
+                <td>Email:</td> 
+                <td><input type="email"></td> 
+                </tr> 
+                <tr> 
+                <td>Phone:</td> 
+                <td><input type="text"></td> 
+                </tr> 
+                <tr> 
+                <td>Password:</td> 
+                <td><input type="password"></td> 
+                </tr> 
+                <tr> 
+                <td colspan="2" align="center"> 
+                <input type="submit" value="Register"> 
+                <input type="reset" value="Reset"> 
+                </td> 
+                </tr> 
+                </table> 
+                </form> 
+                '> 
+                </iframe> 
+            </td> 
+        </tr> 
+    </table> 
+</body> 
+</html>
